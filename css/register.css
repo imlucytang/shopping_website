@@ -1,0 +1,172 @@
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.header {
+    height: 84px;
+    border-bottom: 1px solid rgb(203, 137, 137);
+}
+.logo {
+    padding-top: 10px;
+}
+.register_area {
+    height: 522px;
+    border: 1px solid salmon;
+    margin-top: 20px;
+}
+.register_area h3 {
+    height: 42px;
+    line-height: 42px;
+    padding: 0 10px;
+    border: 1px solid rgb(236, 178, 171);
+    background-color: rgb(254, 202, 196);
+    font-size: 18px;
+    font-weight: 400;
+}
+.login {
+    float: right;
+    font-size: 14px;
+}
+.login a {
+    color: red;
+}
+.register_form {
+    width: 600px;
+    margin: 50px auto 0;
+}
+.register_form ul li {
+    margin-bottom: 20px;
+}
+.register_form ul li label {
+    display: inline-block;
+    width: 88px;
+    text-align: right;
+}
+.register_form ul li .inp {
+    width: 242px;
+    height: 37px;
+    border: 1px solid palevioletred;
+    padding: 5px;
+}
+
+.register_form ul li .error {
+    color: red;
+}
+
+.register_form ul li .success {
+    color: green;
+}
+.error_icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+}
+.success_icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    color: green;
+}
+.safe {
+    padding-left: 115px;
+}
+.safe em {
+    padding: 0 20px;
+    color: white;
+}
+.sm {
+    background-color: red;
+}
+.md {
+    background-color: rgb(230, 230, 136);
+}
+.st {
+    background-color: green;
+}
+.agree {
+    padding-left: 95px;
+}
+.agree input {
+    vertical-align: middle;
+}
+.agree a {
+    color: skyblue;
+}
+.btn {
+    width: 200px;
+    height: 34px;
+    background-color: red;
+    font-size: 14px;
+    color: wheat;
+    margin: 65px 0 0 70px;
+}
+/* 底部模塊製作 */
+
+.footer {
+    height: 415px;
+    background-color: #f5f5f5;
+    margin-top: 30px;
+}
+.modservice {
+    padding-top: 15px;
+    height: 80px;
+    border-bottom: 1px solid #c5dad1;
+}
+
+.modservice ul li {
+    float: left;
+    width: 300px;
+    height: 50px;
+    padding-left: 35px;
+}
+.modservice ul li h5 {
+    height: 50px;
+    width: 50px;
+    float: left;
+    margin-right: 5px;
+    font-size: 36px;
+}
+.service_txt h4 {
+    font-size: 14px;
+    padding-top: 10px;
+}
+.service_txt p {
+    font-style: 12px;
+}
+
+.modhelp {
+    height: 185px;
+    border-bottom: 1px solid #c5dad1;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+.modhelp dl {
+    float: left;
+    width: 200px;
+}
+.modhelp dl:nth-child(6) {
+    width: 90px;
+    text-align: center;
+}
+.modhelp dl dt {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+.modhelp dl:nth-child(6) img {
+    width: 90px;
+    height: 90px;
+}
+.modcopyright {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.links {
+    margin-bottom: 15px;
+}
+.links a {
+    margin: 0px 2px;
+}
+.copyright {
+    line-height: 20px;
+}

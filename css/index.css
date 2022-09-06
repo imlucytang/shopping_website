@@ -1,0 +1,269 @@
+.main {
+    width: 980px;
+    height: 465px;
+    margin-left: 220px;
+}
+.focus {
+    position: relative;
+    width: 721px;
+    height: 465px;
+    margin-top: 3px;
+    overflow: hidden;
+    /* float: left; */
+    /* background-color: rgb(160, 69, 69); */
+}
+.focus ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 600%;
+    list-style: none;
+}
+
+.focus ul li {
+    float: left;
+}
+
+.arrow-l,
+.arrow-r {
+    display: none;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    width: 30px;
+    height: 35px;
+    border-radius: 50%;
+    background: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-family: 'icomoon';
+    font-size: 18px;
+    z-index: 2;
+}
+
+.arrow-r {
+    right: 0;
+}
+
+.circle {
+    position: absolute;
+    bottom: 24px;
+    left: 343px;
+}
+
+.circle li {
+    float: left;
+    width: 10px;
+    height: 10px;
+    /*background-color: #fff;*/
+    border: 2px solid rgba(117, 111, 111, 0.5);
+    margin: 0 3px;
+    border-radius: 50%;
+    /*鼠标经过显示小手*/
+    cursor: pointer;
+    list-style: none;
+}
+
+.current {
+    background-color: #fff;
+}
+
+.newsflash {
+    margin-top: 3px;
+    width: 250px;
+    height: 465px;
+    float: right;
+}
+.news {
+    height: 165px;
+    border: 1px solid #c5dad1;
+}
+.lifeservice {
+    height: 209px;
+    border: 1px solid #c5dad1;
+    border-top: 0;
+}
+.bargin {
+    margin-top: 5px;
+}
+.news_hd {
+    height: 33px;
+    border-bottom: 1px dotted #c5dad1;
+    line-height: 33px;
+    padding: 0 15px;
+}
+.news_hd h5 {
+    float: left;
+    font-size: 14px;
+}
+
+.news_hd .more {
+    float: right;
+}
+
+.news_bd ul li {
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.news_bd {
+    padding: 5px 15px 0px;
+}
+
+.lifeservice {
+    overflow: hidden;
+}
+.lifeservice ul {
+    width: 252px;
+}
+.lifeservice ul li {
+    height: 71px;
+    width: 63px;
+    border-right: 1px solid #c5dad1;
+    border-bottom: 1px solid #c5dad1;
+    float: left;
+    text-align: center;
+}
+.lifeservice ul li i {
+    display: inline-block;
+    width: 24px;
+    height: 28px;
+    /* background-color: pink; */
+    font-size: 30px;
+    margin-top: 12px;
+    color: #90a39b;
+}
+
+/* recom 模塊 */
+
+.recom {
+    height: 163px;
+    margin-top: 12px;
+    background-color: #ebebeb;
+}
+.recom_hd {
+    float: left;
+    width: 205px;
+    height: 163px;
+    color: rgb(213, 73, 73);
+    font-size: 30px;
+    text-align: center;
+    padding-top: 30px;
+}
+.recom_bd {
+    float: left;
+}
+
+.recom_bd ul li {
+    position: relative;
+    float: left;
+}
+.recom_bd ul li img {
+    width: 248px;
+    height: 163px;
+}
+.recom_bd ul li:nth-child(-n + 3)::after {
+    content: '';
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 1px;
+    height: 145px;
+    background-color: #ddd;
+}
+.box_hd {
+    height: 30px;
+    border-bottom: 2px solid salmon;
+}
+.box_hd h3 {
+    float: left;
+    font-size: 18px;
+    font-weight: 400;
+    color: rgb(213, 73, 73);
+}
+.tab_list {
+    float: right;
+}
+.tab_list ul li {
+    float: left;
+    line-height: 30px;
+}
+.tab_list ul li a {
+    margin: 0 15px;
+    font-size: 14px;
+}
+.floor .w {
+    margin-top: 30px;
+}
+.box_bd {
+    height: 361px;
+}
+.tab_list_item > div {
+    float: left;
+    height: 361px;
+}
+.col_210 {
+    width: 210px;
+    text-align: center;
+}
+.col_210 ul {
+    padding-left: 12px;
+}
+.col_210 ul li {
+    width: 85px;
+    height: 34px;
+    border-bottom: 1px solid slategrey;
+    text-align: center;
+    line-height: 33px;
+    float: left;
+}
+.col_329 {
+    width: 329px;
+}
+.col_221 {
+    width: 221px;
+    border-right: 1px solid gray;
+}
+.col_219 {
+    width: 219px;
+}
+.bb {
+    display: block;
+    border-bottom: 1px solid #ccc;
+}
+img {
+    transform: all 0.5s;
+}
+img:hover {
+    transform: scale(1.2);
+}
+li,
+a {
+    overflow: hidden;
+}
+a {
+    overflow: hidden;
+}
+.goBack {
+    /* float: right;
+    font-size: 100px; */
+    /* padding-bottom: 50px; */
+    /* margin-bottom: 200px; */
+    /* height: 30px;
+    padding-right: 37px;
+    font-size: 20px;
+    background-color: #c6eddd;
+    width: 10px;
+    border-radius: 50%;
+    line-height: 30px;
+    border: 2px solid steelblue;
+    margin-bottom: 40px; */
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    background-color: hotpink;
+    font-size: 20px;
+}
